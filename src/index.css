@@ -74,3 +74,18 @@
       @apply bg-background text-foreground;
     }
   }
+
+  @layer components {
+    .sections-padding {
+      padding-top: 15vh;
+    }
+  
+    .social-media-icon {
+      @apply w-12 h-12 pl-3;
+    }
+  
+    /* generate a dim white dark color for hover effect  */
+    .hover-nav-items:hover {
+      @apply text-gray-600;
+    }
+  }
