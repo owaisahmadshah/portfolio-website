@@ -23,8 +23,8 @@ const About = () => {
                     <h1 className="mx-auto text-3xl font-bold mt-12">My Skills</h1>
                     <div className="flex gap-4 flex-wrap mt-8">
                         {
-                            skills.length && skills.map((skill) =>
-                                <div className="bg-gray-400 px-6 py-3 rounded-md font-medium text-gray-600">{skill}</div>
+                            skills.length && skills.map((skill, index) =>
+                                <div key={index} className="bg-gray-400 px-6 py-3 rounded-md font-medium text-gray-600">{skill}</div>
                             )
                         }
                     </div>
