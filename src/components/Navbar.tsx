@@ -4,7 +4,7 @@ interface NavbarProps { }
 
 const Navbar: React.FC<NavbarProps> = () => {
     return (
-        <nav className='fixed w-[100vw] h-[12vh] top-0 z-10 px-10 py-5 flex items-center justify-between bg-gray-400'>
+        <nav className='fixed w-[100vw] h-[12vh] top-0 z-10 px-10 py-5 flex items-center justify-between bg-white'>
             <div className='flex items-center gap-5'>
                 <a href="#home">
                     <Avatar>

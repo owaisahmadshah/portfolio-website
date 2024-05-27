@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 const Home = () => {
     return (
-        <section id="Home" className="flex h-[60vh] bg-gray-200 min-h-[100vh]">
+        <section id="Home" className="flex h-[60vh] bg-blue-500 min-h-[100vh] text-white">
             <div className="w-[15vw] flex flex-col justify-center items-center gap-6">
                 <div className="social-media-icon">
                     <LinkedinIcon className="h-10 w-10 cursor-pointer" />
@@ -16,7 +16,7 @@ const Home = () => {
             <div className="w-[80vw] flex flex-col justify-center items-center gap-6">
                 <h1 className="text-4xl font-bold uppercase">Hello! My name is Owais Ahmad Shah</h1>
                 <p className="text-2xl font-bold">I am a Full Stack Web Developer</p>
-                <Button asChild>
+                <Button asChild variant={"secondary"} >
                     <a href="#projects" className="uppercase text-xl">Projects</a>
                 </Button>
             </div>
