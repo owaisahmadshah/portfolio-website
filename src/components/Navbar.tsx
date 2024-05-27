@@ -12,9 +12,9 @@ const Navbar: React.FC<NavbarProps> = () => {
                         <AvatarFallback>Owais</AvatarFallback>
                     </Avatar>
                 </a>
-                <a href="#home" className='text-l font-bold'>Owais Ahmad Shah</a>
+                <a href="#home" className='text-xl font-bold'>Owais Ahmad Shah</a>
             </div>
-            <ul className='flex justify-center items-center gap-10'>
+            <ul className='flex justify-center items-center gap-14 text-base font-semibold'>
                 <li>
                     <a href="#home" className='hover-nav-items'>
                         HOME
