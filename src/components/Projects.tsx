@@ -16,7 +16,7 @@ const Projects = () => {
                 <div className="md:w-[40vw] mx-6 md:mx-0">
                     <h1 className="text-3xl font-bold mt-12">Project 1</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis iure, aperiam earum, facilis numquam nesciunt excepturi velit laborum omnis libero impedit neque consequatur sed odio ex minima ut quibusdam? Quis, neque! Cumque inventore eos velit vero quo praesentium suscipit.</p>
-                    <Button className="my-6 bg-blue-500">More about Project</Button>
+                    <Button className="my-6 bg-blue-500 hover:bg-blue-600">More about Project</Button>
                 </div>
             </div>
             <div className="flex justify-around flex-col md:flex-row">
@@ -27,7 +27,7 @@ const Projects = () => {
                 <div className="md:w-[40vw] mx-6 md:mx-0">
                     <h1 className="text-3xl font-bold mt-12">Project 2</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis iure, aperiam earum, facilis numquam nesciunt excepturi velit laborum omnis libero impedit neque consequatur sed odio ex minima ut quibusdam? Quis, neque! Cumque inventore eos velit vero quo praesentium suscipit.</p>
-                    <Button className="my-6 bg-blue-500">More about Project</Button>
+                    <Button className="my-6 bg-blue-500 hover:bg-blue-600">More about Project</Button>
                 </div>
             </div>
             <div className="flex justify-around flex-col md:flex-row">
@@ -38,7 +38,7 @@ const Projects = () => {
                 <div className="md:w-[40vw] mx-6 md:mx-0" >
                     <h1 className="text-3xl font-bold mt-12">Project 3</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis iure, aperiam earum, facilis numquam nesciunt excepturi velit laborum omnis libero impedit neque consequatur sed odio ex minima ut quibusdam? Quis, neque! Cumque inventore eos velit vero quo praesentium suscipit.</p>
-                    <Button className="my-6 bg-blue-500">More about Project</Button>
+                    <Button className="my-6 bg-blue-500 hover:bg-blue-600">More about Project</Button>
                 </div>
             </div>
         </section>

@@ -86,7 +86,7 @@ const Contact = () => {
                             </FormItem>
                         )}
                     />
-                    <Button type="submit" className="bg-blue-500">Submit</Button>
+                    <Button type="submit" className="bg-blue-500 hover:bg-blue-600">Submit</Button>
                 </form>
             </Form>
         </section>
