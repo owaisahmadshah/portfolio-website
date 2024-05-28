@@ -12,14 +12,14 @@ const About = () => {
 
             <p className="mx-auto max-w-[80vw] text-xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse, magni dolore expedita quos doloribus quisquam culpa. Ducimus, assumenda. Possimus cum explicabo ut blanditiis ipsam? Veniam fugiat optio tenetur.</p>
 
-            <div className="flex justify-around mt-10">
-                <div className="flex flex-col w-[35vw]">
+            <div className="flex flex-col items-center w-full md:flex-row md:justify-around mt-10">
+                <div className="flex flex-col md:w-[35vw] mx-6 md:mx-0">
                     <h1 className="text-3xl font-bold mt-12">Get to know me!</h1>
                     <p className="text-xl mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ipsum ea reprehenderit ab mollitia, dolorem repellat accusamus voluptates, cupiditate possimus excepturi magni expedita illo. Inventore numquam suscipit libero tempora error deserunt, eaque molestias nam autem tenetur voluptatibus veritatis quas sapiente?</p>
                     <p className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis reiciendis itaque quam dolorem nam culpa accusantium, aut corporis, nobis expedita, odit veritatis. Fuga eius nostrum provident?</p>
                     <Button className="w-40 my-10 bg-blue-500">Contact</Button>
                 </div>
-                <div className="w-[35vw]">
+                <div className="md:w-[35vw] mx-6 md:mx-0">
                     <h1 className="mx-auto text-3xl font-bold mt-12">My Skills</h1>
                     <div className="flex gap-4 flex-wrap mt-8">
                         {
@@ -30,7 +30,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }
