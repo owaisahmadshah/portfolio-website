@@ -8,7 +8,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 
 function App() {
   return (
-    <ScrollArea className="h-[100vh] rounded-md border">
+    <ScrollArea className="h-[100vh]">
       <Navbar />
       <Home />
       <About />
