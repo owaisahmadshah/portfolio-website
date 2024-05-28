@@ -42,7 +42,7 @@ const Contact = () => {
             <p className="mx-auto max-w-[80vw] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse, magni dolore expedita quos doloribus quisquam culpa. Ducimus, assumenda. Possimus cum explicabo ut blanditiis ipsam? Veniam fugiat optio tenetur.</p>
 
             <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 my-16 mx-auto w-[50vw] bg-white p-10 rounded text-gray-700">
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 my-16 mx-auto w-[90vw] md:w-[50vw] bg-white p-10 rounded text-gray-700">
                     <FormField
                         control={form.control}
                         name="name"
