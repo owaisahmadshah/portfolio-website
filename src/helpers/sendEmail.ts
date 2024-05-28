@@ -1,7 +1,7 @@
 import { resend } from "@/lib/resend"
 import sendEmail from "../../emails/VerificationEmail"
 
-export async function sendVerificationEmail(
+export async function sendUserEmail(
     name: string,
     email: string,
     message: string
