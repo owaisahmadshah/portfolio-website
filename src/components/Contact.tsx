@@ -11,6 +11,8 @@ import {
 import { Input } from "@/components/ui/input"
 import { Separator } from "./ui/separator"
 import { Textarea } from "./ui/textarea"
+import { sendUserEmail } from "@/helpers/sendEmail"
+import { useToast } from "@/components/ui/use-toast"
 
 
 interface Contact {
@@ -21,6 +23,8 @@ interface Contact {
 
 const Contact = () => {
 
+    const { toast } = useToast()
+
     const form = useForm<Contact>({
         defaultValues: {
             name: "",
@@ -29,7 +33,25 @@ const Contact = () => {
         }
     })
 
-    const onSubmit = (data: Contact) => {
+    const onSubmit = async (data: Contact) => {
+
+        if ([data.email, data.name, data.message].some(value => value.trim() === "")) return
+
+        const emailResponse = await sendUserEmail(data.name, data.email, data.message)
+
+        if (!emailResponse.success) {
+            toast({
+                title: "Error Sending Email",
+                description: "Your email has not been sent successfully.",
+            })
+            return
+        }
+
+        toast({
+            title: "Email Sent Successfully",
+            description: "Your email has been sent successfully.",
+        })
+
         form.reset()
     }
 
