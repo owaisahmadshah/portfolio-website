@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="flex justify-around my-auto">
                 <div>
                     <h1 className="text-2xl font-bold my-3">Owais Ahmad Shah</h1>
-                    <p className="w-[40vw] ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos eum quis porro consequatur commodi animi saepe, quos debitis iure.</p>
+                    <p className="w-[40vw] ">I am a passionate web developer dedicated to creating innovative and efficient web solutions. Connect with me on LinkedIn or check out my projects on GitHub.</p>
                 </div>
                 <div className="flex flex-col">
                     <h1 className="uppercase text-2xl font-bold my-3">Social</h1>
