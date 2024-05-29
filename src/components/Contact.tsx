@@ -61,7 +61,7 @@ const Contact = () => {
             <h1 className="mx-auto text-4xl font-bold uppercase mt-12">Contact Me</h1>
             <Separator className="max-w-8 h-2 mx-auto rounded-sm bg-white my-6" />
 
-            <p className="mx-auto max-w-[80vw] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse, magni dolore expedita quos doloribus quisquam culpa. Ducimus, assumenda. Possimus cum explicabo ut blanditiis ipsam? Veniam fugiat optio tenetur.</p>
+            <p className="mx-auto max-w-[80vw] text-center">Feel free to reach out to me for any inquiries, collaborations, or just to say hello. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Fill out the form below, and I'll get back to you as soon as possible.</p>
 
             <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 my-16 mx-auto w-[90vw] md:w-[50vw] bg-white p-10 rounded text-gray-700">
