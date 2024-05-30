@@ -34,7 +34,7 @@ const Projects = () => {
                     </div>
                     <div className="md:w-[40vw] mx-6 md:mx-0">
                         <h1 className="text-3xl font-bold mt-12">{project.title}</h1>
-                        <p>{project.description}</p>
+                        <p className="md:mr-10">{project.description}</p>
                         {/* TODO: Added link to the button for the github repo of the project or any other thing */}
                         <Button className="my-6 bg-blue-500 hover:bg-blue-600">More About Project</Button>
                     </div>
