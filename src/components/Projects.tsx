@@ -13,7 +13,7 @@ const Projects = () => {
     const projects: Project[] = [
         {
             title: "Real Time Chat App",
-            description: "A real time chat app developed using Next.js, Express.js and MongoDB. In this app you can create groups, there are two types of groups, in which one is personel groups where only two people will talk with each other, it would like be private chat but it is still a group, and the other one is group where multiple user can join and remove from the group.",
+            description: "A real time chat app developed using Next.js, Express.js and MongoDB. In this app you can create groups, there are two types of groups, in which one is personel groups where only two people will talk with each other, it would like be private chat but it is still a group, and the other one is group where multiple user can join and remove from the group. It took one month to develop it. Currently it is not available for use but I would be available soon.",
             link: "",
             images: [""]
         }
