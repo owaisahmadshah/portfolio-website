@@ -13,7 +13,7 @@ const Projects = () => {
     const projects: Project[] = [
         {
             title: "Real Time Chat App",
-            description: "A real time chat app developed using Next.js, Express.js and MongoDB",
+            description: "A real time chat app developed using Next.js, Express.js and MongoDB. In this app you can create groups, there are two types of groups, in which one is personel groups where only two people will talk with each other, it would like be private chat but it is still a group, and the other one is group where multiple user can join and remove from the group.",
             link: "",
             images: [""]
         }
@@ -30,7 +30,7 @@ const Projects = () => {
                     <div className="md:w-[60vw] flex justify-center items-center">
                         {/* TODO add images silder instead of 1 */}
                         {/* <img src="../../public/projectImage.jpeg" alt="Projec1" /> */}
-                        <img src="" alt="" />
+                        <img src="" alt="Project Images" />
                     </div>
                     <div className="md:w-[40vw] mx-6 md:mx-0">
                         <h1 className="text-3xl font-bold mt-12">{project.title}</h1>
