@@ -13,8 +13,8 @@ const Footer = () => {
                 <div className="flex flex-col">
                     <h1 className="uppercase text-2xl font-bold my-3">Social</h1>
                     <div className="flex gap-6">
-                        <LinkedinIcon className="h-10 w-10 cursor-pointer" />
-                        <GitHubLogoIcon className="h-10 w-10 cursor-pointer" />
+                        <a href="https://github.com/owaisahmadshah" target="_blank" rel="noopener noreferrer"><GitHubLogoIcon className="h-10 w-10 cursor-pointer" /></a>
+                        <a href="https://www.linkedin.com/in/owais-ahmad-shah-272302254" target="_blank" rel="noopener noreferrer"><LinkedinIcon className="h-10 w-10 cursor-pointer" /></a>
                     </div>
                 </div>
             </div>
