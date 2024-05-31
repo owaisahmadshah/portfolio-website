@@ -20,7 +20,7 @@ const Projects = () => {
     ]
 
     return (
-        <section id="Projects" className="flex flex-col bg-gray-100 minh-[100vh]">
+        <section id="Projects" className="flex flex-col bg-gray-100 minh-[100vh] pt-[12vh]">
             <h1 className="mx-auto text-4xl font-bold uppercase mt-12">Projects</h1>
             <Separator className="max-w-8 h-2 mx-auto rounded-sm bg-gray-950 my-6" />
             <p className="w-[80vw] mx-auto text-center mb-6">Welcome to my project portfolio! Here you'll find a showcase of my work, highlighting various projects that demonstrate my skills and experience in web development. Each project is a reflection of my commitment to building efficient, user-friendly, and innovative web applications. Feel free to explore and learn more about the projects I've worked on and the technologies I've utilized.</p>

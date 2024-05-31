@@ -56,7 +56,7 @@ const Contact = () => {
     }
 
     return (
-        <section id="Contact" className="flex flex-col bg-blue-500 text-white min-h-[100vh]">
+        <section id="Contact" className="flex flex-col bg-blue-500 text-white min-h-[100vh] pt-[12vh]">
 
             <h1 className="mx-auto text-4xl font-bold uppercase mt-12">Contact Me</h1>
             <Separator className="max-w-8 h-2 mx-auto rounded-sm bg-white my-6" />
