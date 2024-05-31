@@ -14,7 +14,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                 </a>
                 <a href="#Home" className='text-xl font-bold hidden md:block'>Owais Ahmad Shah</a>
             </div>
-            <ul className='flex justify-center items-center gap-4 md:gap-14 text-base font-semibold'>
+            <ul className='flex justify-center items-center gap-4 md:gap-14 text-sm md:text-base font-semibold'>
                 <li>
                     <a href="#Home" className='hover-nav-items'>
                         HOME
