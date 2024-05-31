@@ -42,7 +42,8 @@ const Contact = () => {
         if (!emailResponse.success) {
             toast({
                 title: "Error Sending Email",
-                description: "Your email has not been sent successfully.",
+                description: "Something went wrong. You can contact in linkedIn or on this email 'owaisahmadqureshi019@gmail.com'",
+                variant: "destructive"
             })
             return
         }
