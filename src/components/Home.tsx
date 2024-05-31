@@ -17,7 +17,7 @@ const Home = () => {
                 <h1 className="text-4xl font-bold uppercase">Hello! My name is Owais Ahmad Shah</h1>
                 <p className="text-2xl font-bold">I am a Full Stack Web Developer</p>
                 <Button asChild variant={"secondary"} >
-                    <a href="#projects" className="uppercase text-xl">Projects</a>
+                    <a href="#Projects" className="uppercase text-xl">Projects</a>
                 </Button>
             </div>
         </section>
