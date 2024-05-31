@@ -5,10 +5,10 @@ import { Separator } from "./ui/separator"
 const Footer = () => {
     return (
         <footer className='bg-black text-white min-h-[50vh] flex flex-col'>
-            <div className="flex justify-around my-auto">
-                <div>
-                    <h1 className="text-2xl font-bold my-3">Owais Ahmad Shah</h1>
-                    <p className="w-[40vw] ">I am a passionate web developer dedicated to creating innovative and efficient web solutions. Connect with me on LinkedIn or check out my projects on GitHub.</p>
+            <div className="flex justify-around items-center flex-col md:flex-row my-auto">
+                <div className="w-full">
+                    <h1 className="text-2xl font-bold ml-10 my-3 md:ml-0">Owais Ahmad Shah</h1>
+                    <p className="md:w-[40vw] w-[80vw] mx-auto">I am a passionate web developer dedicated to creating innovative and efficient web solutions. Connect with me on LinkedIn or check out my projects on GitHub.</p>
                 </div>
                 <div className="flex flex-col">
                     <h1 className="uppercase text-2xl font-bold my-3">Social</h1>
