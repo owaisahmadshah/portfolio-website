@@ -1,3 +1,5 @@
+import { chatImages } from "@/lib/getImages"
+import { DisplayProjectImages } from "./DisplayImages"
 import { Button } from "./ui/button"
 import { Separator } from "./ui/separator"
 
@@ -13,9 +15,9 @@ const Projects = () => {
     const projects: Project[] = [
         {
             title: "Real Time Chat App",
-            description: "A real time chat app developed using Next.js, Express.js and MongoDB. In this app you can create groups, there are two types of groups, in which one is personel groups where only two people will talk with each other, it would like be private chat but it is still a group, and the other one is group where multiple user can join and remove from the group. It took one month to develop it. Currently it is not available for use but I would be available soon.",
-            link: "",
-            images: [""]
+            description: "A real time chat app developed using Next.js, Express.js and MongoDB. In this app you can create groups, there are two types of groups, in which one is personel groups where only two people will talk with each other, it would like be private chat but it is still a group, and the other one is group where multiple user can join and remove from the group. It took one month to develop it. Currently it is not available for use but it would be available soon.",
+            link: "https://github.com/owaisahmadshah/messenger",
+            images: chatImages
         }
     ]
 
@@ -28,15 +30,15 @@ const Projects = () => {
             {
                 projects?.length && projects.map((project) => <div className="flex justify-around flex-col md:flex-row">
                     <div className="md:w-[60vw] flex justify-center items-center">
-                        {/* TODO add images silder instead of 1 */}
-                        {/* <img src="../../public/projectImage.jpeg" alt="Projec1" /> */}
-                        <img src="" alt="Project Images" />
+                        <DisplayProjectImages images={project.images} />
                     </div>
                     <div className="md:w-[40vw] mx-6 md:mx-0">
                         <h1 className="text-3xl font-bold mt-12">{project.title}</h1>
                         <p className="md:mr-10">{project.description}</p>
                         {/* TODO: Added link to the button for the github repo of the project or any other thing */}
-                        <Button className="my-6 bg-blue-500 hover:bg-blue-600">More About Project</Button>
+                        <Button className="my-6 bg-blue-500 hover:bg-blue-600">
+                            <a href={project.link} target="_blank">More About Project</a>
+                        </Button>
                     </div>
                 </div>)
             }
