@@ -11,7 +11,7 @@ const Footer = () => {
                     <p className="md:w-[40vw] w-[80vw] mx-auto">I am a passionate web developer dedicated to creating innovative and efficient web solutions. Connect with me on LinkedIn or check out my projects on GitHub.</p>
                 </div>
                 <div className="flex flex-col">
-                    <h1 className="uppercase text-2xl font-bold my-3">Social</h1>
+                    <h1 className="uppercase text-2xl font-bold my-3">Social Media</h1>
                     <div className="flex gap-6">
                         <a href="https://github.com/owaisahmadshah" target="_blank" rel="noopener noreferrer"><GitHubLogoIcon className="h-10 w-10 cursor-pointer" /></a>
                         <a href="https://www.linkedin.com/in/owais-ahmad-shah-272302254" target="_blank" rel="noopener noreferrer"><LinkedinIcon className="h-10 w-10 cursor-pointer" /></a>
